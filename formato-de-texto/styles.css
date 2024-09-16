@@ -1,0 +1,27 @@
+.background-red {
+    background-color: red;
+}
+
+.background-blue {
+    background-color: blue;
+}
+
+#incremented-darth-vader {
+    font-size: 2rem;
+}
+
+#italic-luke {
+    font-style: italic;
+}
+
+.letter-spacing-soldier {
+    letter-spacing: 4px;
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.aircrafts {
+    text-transform: uppercase;
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Menú */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0077cc;
+    padding: 1rem;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-top: 10px;
+  }
+
+  input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Modo oscuro */
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .dark-mode nav {
+    background-color: #333;
+  }
+
+  .dark-mode button {
+    background-color: #555;
+    color: white;
+  }
+
+  /* Botones para cambiar el tema */
+  .theme-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .theme-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

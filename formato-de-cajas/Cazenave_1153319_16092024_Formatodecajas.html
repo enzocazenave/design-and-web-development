@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veterinaria</title>
+    <link rel="stylesheet" href="Cazenave_1153319_16092024_Formatodecajas.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
+    </nav>
+
+    <h1>Bienvenidos a la Veterinaria</h1>
+    <h2>Registro de Usuarios</h2>
+
+    <div class="container">
+      <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required />
+
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+
+    <div class="theme-buttons">
+      <button id="modoClaro">Modo Claro</button>
+      <button id="modoOscuro">Modo Oscuro</button>
+    </div>
+
+    <script>
+      const btnModoClaro = document.getElementById("modoClaro")
+      const btnModoOscuro = document.getElementById("modoOscuro")
+
+      btnModoClaro.addEventListener("click", function () {
+        document.body.classList.remove("dark-mode")
+      })
+
+      btnModoOscuro.addEventListener("click", function () {
+        document.body.classList.add("dark-mode")
+      })
+    </script>
+  </body>
+</html>

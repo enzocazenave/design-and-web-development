@@ -1,0 +1,186 @@
+:root {
+  --primary-color: #86EFAC;
+  --primary-color-10: rgba(134, 239, 172, 0.1);
+  --secondary-color: #DCFCE7;
+  --dark-color: #0C0C0C;
+  --white-color: #FFFFFF;
+  --white-color-70: rgba(255, 255, 255, 0.7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: var(--white-color);
+}
+
+body {
+  max-width: 68rem;
+  margin: auto;
+  padding: 6rem 1rem;
+  background-color: var(--dark-color);
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 6rem);
+  padding-bottom: 6rem;
+  position: relative;
+  flex: 1;
+}
+
+.transparent-space {
+  flex: 1;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: fixed;
+}
+
+header > div > div > h1 {
+  font-size: 3em;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+header > div > div > h2 {
+  font-size: 1.5em;
+  color: var(--primary-color);
+  font-weight: normal;
+}
+
+header > div > p {
+  max-width: 450px;
+}
+
+header > div > nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+header > div > nav ul li a {
+  font-size: 1.25em;
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: 4s background;
+  text-decoration: none;
+}
+
+header > div > nav > ul > li > a.active {
+  color: var(--primary-color)
+}
+
+header > nav > ul > li > a:hover {
+  color: var(--primary-color);
+  transition: 0.2s color;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 0.875em;
+  width: fit-content;
+  background-color: transparent;
+  padding: 0.625rem 2.25rem;
+  cursor: pointer;
+}
+
+header > button {
+  position: fixed;
+  bottom: 6rem;
+}
+
+.sections-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+button:hover {
+  opacity: 0.9;
+  background-color: var(--primary-color-10);
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-title {
+  font-size: 1.25em;
+  font-weight: medium;
+  color: var(--primary-color)
+}
+
+.section-text {
+  font-size: 1em;
+}
+
+.section-ul {
+  margin-left: 16px;
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.color-secondary {
+  color: var(--secondary-color);
+  font-style: normal;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-container > form > input {
+  padding: 0.3125rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  outline: none;
+}
+
+.section-container > form > textarea {
+  padding: 0.3125rem 0.5rem;
+  height: 124px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  outline: none;
+}
+.section-container > form > input::placeholder {
+  color: var(--primary-color)
+}
+
+.section-container > form > textarea::placeholder {
+  color: var(--primary-color)
+}
+
+@media (max-width: 1088px)  {
+  body {
+    padding: 1rem;
+  }
+
+  header {
+    display: none;
+  }
+}

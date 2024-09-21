@@ -13,58 +13,64 @@
     />
   </head>
   <body>
-    <header>
-      <div>
+    <div class="container">
+      <header>
         <div>
-          <h1>Enzo Cazenave</h1>
-          <h2>Full Stack Developer</h2>
+          <div>
+            <h1>Enzo Cazenave</h1>
+            <h2>Full Stack Developer</h2>
+          </div>
+  
+          <p>
+            Hola, soy Enzo Cazenave! Un desarrollador especializado en crear (y
+            ocasionalmente diseñar) experiencias digitales excepcionales.
+          </p>
+  
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="about.html">Sobre mi</a>
+              </li>
+              <li>
+                <a href="services.html">Servicios</a>
+              </li>
+              <li>
+                <a href="cv.html">Curriculum Vitae</a>
+              </li>
+              <li>
+                <a href="contact.html" class="active">Contacto</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+  
+        <button>Descargar CV</button>
+      </header>
+  
+      <main class="sections-container">
+        <section class="section-container">
+          <p class="section-text">
+            Si tienes alguna pregunta o necesitas ayuda con algo, no dudes en
+            contactarnos. Estaremos encantados de ayudarte.
+          </p>
+        </section>
+  
+        <section class="section-container">
+          <form>
+            <input placeholder="Nombre"/>
+            <input placeholder="Correo electrónico"/>
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="button">Enviar</button>
+          </form>
+        </section>
+      </main>
+    </div>
 
-        <p>
-          Hola, soy Enzo Cazenave! Un desarrollador especializado en crear (y
-          ocasionalmente diseñar) experiencias digitales excepcionales.
-        </p>
-
-        <nav>
-          <ul>
-            <li>
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="about.html">Sobre mi</a>
-            </li>
-            <li>
-              <a href="services.html">Servicios</a>
-            </li>
-            <li>
-              <a href="cv.html">Curriculum Vitae</a>
-            </li>
-            <li>
-              <a href="contact.html" class="active">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <button>Descargar CV</button>
-    </header>
-
-    <main class="sections-container">
-      <section class="section-container">
-        <p class="section-text">
-          Si tienes alguna pregunta o necesitas ayuda con algo, no dudes en
-          contactarnos. Estaremos encantados de ayudarte.
-        </p>
-      </section>
-
-      <section class="section-container">
-        <form>
-          <input placeholder="Nombre"/>
-          <input placeholder="Correo electrónico"/>
-          <textarea placeholder="Mensaje"/>
-          <button>Enviar</button>
-        </form>
-      </section>
-    </main>
+    <footer class="footer">
+      <h2>Enzo Cazenave</h2>
+    </footer>
   </body>
 </html>

@@ -15,12 +15,27 @@
   color: var(--white-color);
 }
 
-body {
+.container {
   max-width: 68rem;
   margin: auto;
   padding: 6rem 1rem;
-  background-color: var(--dark-color);
   display: flex;
+}
+
+.footer {
+  max-width: 68rem;
+  margin: auto;
+  padding: 1rem;
+  border-top: 1px solid var(--primary-color);
+}
+
+.footer > h2 {
+  font-size: 0.875em;
+  color: var(--primary-color)
+}
+
+body {
+  background-color: var(--dark-color);
 }
 
 header {
@@ -173,6 +188,45 @@ form {
 
 .section-container > form > textarea::placeholder {
   color: var(--primary-color)
+}
+
+.white-color-70 {
+  color: var(--white-color-70);
+}
+
+.more-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-project {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.section-project > aside {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: 100%;
+}
+
+.section-project > img {
+  width: 8rem;
+  object-fit: cover;
+  height: fit-content;
+  border-radius: 0.3125rem;
+}
+
+.section-project > aside > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-project > aside > p {
+  font-size: 0.875em;
 }
 
 @media (max-width: 1088px)  {

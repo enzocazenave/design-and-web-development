@@ -10,50 +10,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div>
+    <nav id="mobile-nav">
+      <ul>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="about.html">Sobre mi</a>
+        </li>
+        <li>
+          <a href="services.html" class="active">Servicios</a>
+        </li>
+        <li>
+          <a href="cv.html">Curriculum Vitae</a>
+        </li>
+        <li>
+          <a href="contact.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <header>
         <div>
-          <h1>Enzo Cazenave</h1>
-          <h2>Full Stack Developer</h2>
+          <div>
+            <h1>Enzo Cazenave</h1>
+            <h2>Full Stack Developer</h2>
+          </div>
+    
+          <p>
+            Hola, soy Enzo Cazenave! Un desarrollador especializado en crear (y ocasionalmente diseñar) experiencias digitales excepcionales.
+          </p>
+    
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="about.html">Sobre mi</a>
+              </li>
+              <li>
+                <a href="services.html" class="active">Servicios</a>
+              </li>
+              <li>
+                <a href="cv.html">Curriculum Vitae</a>
+              </li>
+              <li>
+                <a href="contact.html">Contacto</a>
+              </li>
+            </ul>
+          </nav>
         </div>
   
-        <p>
-          Hola, soy Enzo Cazenave! Un desarrollador especializado en crear (y ocasionalmente diseñar) experiencias digitales excepcionales.
-        </p>
+        <a class="download-button" href="./cazenave-enzo.pdf" download>Descargar CV en PDF</a>
+      </header>
   
-        <nav>
-          <ul>
-            <li>
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="about.html">Sobre mi</a>
-            </li>
-            <li>
-              <a href="services.html" class="active">Servicios</a>
-            </li>
-            <li>
-              <a href="cv.html">Curriculum Vitae</a>
-            </li>
-            <li>
-              <a href="contact.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <main class="sections-container">
+        <section class="section-container">
+          <h3 class="section-title">Mis Servicios</h3>
+          <p class="section-text"><span class="color-secondary">Desarrollo de sitios web o landing pages</span> “Creación de sitios web atractivos, funcionales y optimizados. Trabajaremos con usted, entregándole soluciones personalizadas que generen una experiencia de usuario única y aumenten la visibilidad de su marca”</p>
+          <p class="section-text"><span class="color-secondary">Desarrollo de sistemas personalizados</span> “Nuestros sistemas se construyen desde cero, adaptándose a los requerimientos y procesos únicos, lo que permite una mayor eficiencia, funcionalidad y escalabilidad en comparación con soluciones estándar. Este enfoque personalizado garantiza una mayor alineación con los objetivos del cliente y una experiencia de usuario más óptima.”</p>
+          <p class="section-text"><span class="color-secondary">Desarrollo de aplicaciones móviles</span> “Creación de aplicaciones móviles atractivas, funcionales y optimizadas. Trabajaremos con usted, entregándole soluciones personalizadas que generen una experiencia de usuario única y aumenten la visibilidad de su marca.”</p>
+        </section>
+      </main>
+    </div>
 
-      <button>
-        Descargar CV
-      </button>
-    </header>
-
-    <main class="sections-container">
-      <section class="section-container">
-        <h3 class="section-title">Mis Servicios</h3>
-        <p class="section-text"><span class="color-secondary">Desarrollo de sitios web o landing pages</span> “Creación de sitios web atractivos, funcionales y optimizados. Trabajaremos con usted, entregándole soluciones personalizadas que generen una experiencia de usuario única y aumenten la visibilidad de su marca”</p>
-        <p class="section-text"><span class="color-secondary">Desarrollo de sistemas personalizados</span> “Nuestros sistemas se construyen desde cero, adaptándose a los requerimientos y procesos únicos, lo que permite una mayor eficiencia, funcionalidad y escalabilidad en comparación con soluciones estándar. Este enfoque personalizado garantiza una mayor alineación con los objetivos del cliente y una experiencia de usuario más óptima.”</p>
-        <p class="section-text"><span class="color-secondary">Desarrollo de aplicaciones móviles</span> “Creación de aplicaciones móviles atractivas, funcionales y optimizadas. Trabajaremos con usted, entregándole soluciones personalizadas que generen una experiencia de usuario única y aumenten la visibilidad de su marca.”</p>
-      </section>
-    </main>
+    <footer class="footer">
+      <h2>Enzo Cazenave</h2>
+    </footer>
   </body>
 </html>

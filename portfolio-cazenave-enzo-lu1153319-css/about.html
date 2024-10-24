@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Enzo Cazenave - Sobre Mi</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enzo Cazenave - Sobre Mi</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav id="mobile-nav">
+    <ul>
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>
+      <li>
+        <a href="about.html" class="active">Sobre mi</a>
+      </li>
+      <li>
+        <a href="services.html">Servicios</a>
+      </li>
+      <li>
+        <a href="cv.html">Curriculum Vitae</a>
+      </li>
+      <li>
+        <a href="contact.html">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
     <header>
       <div>
         <div>
           <h1>Enzo Cazenave</h1>
           <h2>Full Stack Developer</h2>
         </div>
-  
+
         <p>
-          Hola, soy Enzo Cazenave! Un desarrollador especializado en crear (y ocasionalmente diseñar) experiencias digitales excepcionales.
+          Hola, soy Enzo Cazenave! Un desarrollador especializado en crear (y ocasionalmente diseñar) experiencias
+          digitales excepcionales.
         </p>
-  
+
         <nav>
           <ul>
             <li>
@@ -42,15 +67,121 @@
         </nav>
       </div>
 
-      <button>
-        Descargar CV
-      </button>
+      <a class="download-button" href="./cazenave-enzo.pdf" download>Descargar CV en PDF</a>
     </header>
 
     <main class="sections-container">
       <section class="section-container">
-        <p class="section-text">Soy un apasionado desarrollador con un fuerte enfoque en la creación de soluciones tecnológicas innovadoras. Actualmente, trabajo en <span class="color-primary">Upbrands Agency</span> y lidero mi propia agencia de desarrollo de software, <span class="color-primary">UFO Development</span>. Con una sólida formación académica y una carrera en constante crecimiento, me dedico a transformar ideas en realidades digitales que impulsan el éxito de mis clientes.</p>
+        <p class="section-text">Soy un apasionado desarrollador con un fuerte enfoque en la creación de soluciones
+          tecnológicas innovadoras. Actualmente, trabajo en <span class="color-primary">Upbrands Agency</span> y lidero
+          mi propia agencia de desarrollo de software, <span class="color-primary">UFO Development</span>. Con una
+          sólida formación académica y una carrera en constante crecimiento, me dedico a transformar ideas en realidades
+          digitales que impulsan el éxito de mis clientes.</p>
+      </section>
+
+      <section class="section-container">
+        <h3 class="section-title">Experiencia Profesional</h3>
+
+        <div class="section-experience">
+          <p class="white-color-70">JUN 2023 - PRESENTE</p>
+
+          <div>
+            <div>
+              <h4 class="color-primary">Frontend Engineer</h4>
+              <p>Upbrands Agency, Buenos Aires, Argentina.</p>
+            </div>
+
+            <p>Especializado en crear interfaces web funcionales e impresionantes. Trabajo en efectiva colaboración con
+              equipos para transformar conceptos creativos en soluciones web de alta calidad y rendimiento</p>
+          </div>
+        </div>
+
+        <div class="section-experience">
+          <p class="white-color-70">ENE 2022 - DIC 2022</p>
+
+          <div>
+            <div>
+              <h4 class="color-primary">Freelance Developer</h4>
+              <p>Freelancing desde Buenos Aires, Argentina.</p>
+            </div>
+
+            <p>Desarrollé script, funcionalidades e interfaces para servidores del juego FiveM para clientes del
+              exterior.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container">
+        <h3 class="section-title">Educación</h3>
+
+        <div class="more-gap">
+          <div class="section-education">
+            <p class="white-color-70">2022 - PRESENTE</p>
+            <h4 class="color-primary">Ingeniería en informática</h4>
+            <p class="white-color-90">Universidad Argentina de la Empresa (UADE), Montserrat, BA.</p>
+          </div>
+  
+          <div class="section-education">
+            <p class="white-color-70">2022 - 2024</p>
+            <h4 class="color-primary">Analista en informática</h4>
+            <p class="white-color-90">Universidad Argentina de la Empresa (UADE), Montserrat, BA.</p>
+          </div>
+
+          <div class="section-education">
+            <p class="white-color-70">2011 - 2021</p>
+            <h4 class="color-primary">Diploma Superior en Capacitación de Inglés</h4>
+            <p class="white-color-90">Brighton English Institute, Berazategui, Buenos Aires.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container">
+        <h3 class="section-title">Cursos</h3>
+
+        <div class="more-gap">
+          <div class="section-education">
+            <p class="white-color-70">2023</p>
+            <h4 class="color-primary">Electron y React: Creando aplicaciones de escritorio.</h4>
+            <p class="white-color-90">Udemy (Online Learning Platform)</p>
+          </div>
+  
+          <div class="section-education">
+            <p class="white-color-70">2022</p>
+            <h4 class="color-primary">React Native: Aplicaciones nativas para iOS y Android.</h4>
+            <p class="white-color-90">Udemy (Online Learning Platform)</p>
+          </div>
+
+          <div class="section-education">
+            <p class="white-color-70">2022</p>
+            <h4 class="color-primary">React: Aplicaciones en tiempo real con Socket-IO.</h4>
+            <p class="white-color-90">Udemy (Online Learning Platform)</p>
+          </div>
+
+          <div class="section-education">
+            <p class="white-color-70">2022</p>
+            <h4 class="color-primary">Reac y MERN: Desarrollo de aplicaciones web.</h4>
+            <p class="white-color-90">Udemy (Online Learning Platform)</p>
+          </div>
+
+          <div class="section-education">
+            <p class="white-color-70">2020</p>
+            <h4 class="color-primary">PHP y la Web</h4>
+            <p class="white-color-90">Mastermind (Online Learning Platform)</p>
+          </div>
+
+          <div class="section-education">
+            <p class="white-color-70">2019</p>
+            <h4 class="color-primary">Aprende a programar con Python</h4>
+            <p class="white-color-90">Mastermind (Online Learning Platform)</p>
+          </div>
+        </div>
       </section>
     </main>
-  </body>
+  </div>
+
+  <footer class="footer">
+    <h2>Enzo Cazenave</h2>
+  </footer>
+</body>
+
 </html>
